@@ -1,0 +1,44 @@
+.comment {
+    width: 100%;
+    margin: .5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.main-comment {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin: .5rem 0;
+}
+
+.replies {
+    width: 80%;
+}
+
+.comment-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.comment-data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -5px;
+}
+
+.comment-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.username {
+    color: dodgerblue;
+    font-weight: 700;
+}
